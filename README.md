@@ -11,9 +11,13 @@ Documentation Hub for WorldSkills 2022 Cybersecurity Australia Team "Silver"
 ## Mentor
 - Sawan Singh
 
-## Schedule
+## Training Schedule
 Here is our shared training schedule!
-[Click Me!](https://pages.github.com/)
+[Click Me!](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Training)
+
+## Meetings and Minutes
+Gotta write our banter somewhere ... Right?
+[Click Me!](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Training)
 
 ## Notes
 Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database  
