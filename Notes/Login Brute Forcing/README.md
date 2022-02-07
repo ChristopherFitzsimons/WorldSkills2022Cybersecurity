@@ -1,6 +1,6 @@
 <[Back to Main Page](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity)
 
-# Login Brue Force
+# Login Brue Forcing
 Creared by Bujitha Ponsuge
 
 ## Brute Forcing Login Forms
