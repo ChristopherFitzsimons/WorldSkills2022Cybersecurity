@@ -45,5 +45,4 @@ Following Commands are usefull to brute force Login Forms (Admin Panels etc..) u
 
 > To Determine if the **http[s]-post-form** is the correct module to use. Type something into the login form and check if the URL has any of the inputs that you put in or if the URL change in anyway, If the URL does not change then the Web Application will be using an POST form. If the URL change and or have any of our inputs then its an GET form.
 > 
-> NOTE: If the URL changes then use the  http[s]-{head|get|post} module
 
