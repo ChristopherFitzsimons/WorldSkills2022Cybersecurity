@@ -26,6 +26,6 @@ Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database
 | Tables_in_DataBase |
 | --- |
 | [SQL Injection](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/SQL%20Injection/) |
-| [Login Brute Forceing](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Notes/Login Brute%20Force) |
+| [Login Brute Forceing](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Notes/Login%20Brute%20Force) |
 
 2 rows in set (0.00 sec)  
