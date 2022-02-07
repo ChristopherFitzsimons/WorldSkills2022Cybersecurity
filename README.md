@@ -16,8 +16,9 @@ Here is our shared training schedule!
 [Click Me!](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Training)
 
 ## Meetings and Minutes
-Gotta write our banter somewhere ... Right?
-[Click Me!](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Training)
+Gotta document our banter somewhere ... Right?
+- [30/01/2022](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings/22-01-30.md)
+- [07/02/2022](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings/22-02-07.md)
 
 ## Notes
 Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database  
