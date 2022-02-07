@@ -22,7 +22,7 @@ Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database
 +------------------------------+  
 |&nbsp; Tables_in_DataBase&nbsp; |  
 +------------------------------+  
-|&nbsp; <a href="Notes/SQL_Injection.md">SQL Injection</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  
+|&nbsp; <a href="SQL_Injection.md">SQL Injection</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  
 |&nbsp; <a href="Notes/Brute_Force.md">Brute Force</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  
 +------------------------------+  
 2 rows in set (0.00 sec)  
