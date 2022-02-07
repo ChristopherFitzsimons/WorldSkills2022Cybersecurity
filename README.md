@@ -23,10 +23,9 @@ Gotta document our banter somewhere ... Right?
 ## Notes
 Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database  
 \> SHOW TABLES;  
-+--------------------------+  
-|&nbsp; Tables_in_DataBase&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;|  
-+--------------------------+  
-|&nbsp; [SQL Injection](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/SQL%20Injection/)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  
-|&nbsp; [Login Brute Forceing](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/Login%20Brute%20Force/)&nbsp; &nbsp; &nbsp;|  
-+--------------------------+  
+| Tables_in_DataBase |
+| --- |
+| [SQL Injection](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/SQL%20Injection/) |
+| [Login Brute Forceing](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/Login%20Brute%20Force/) |
+
 2 rows in set (0.00 sec)  
