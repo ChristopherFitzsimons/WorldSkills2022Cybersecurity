@@ -20,12 +20,12 @@ Buji (HTB Academy - Brute Forcing)
 
 ### 07/02/22 - 13/02/22
 Chris (HTB Academy - CROSS-SITE SCRIPTING / XSS)  
-Buji (HTB Academy - )  
+Buji (HTB Academy - Server-Side Attacks)  
 
 ### 14/02/22 - 20/02/22
 Chris (HTB Academy - SHELLS & PAYLOADS)  
-Buji (HTB Academy - )  
+Buji (HTB Academy - Broken Authentication)  
 
 ### 21/02/22 - 27/02/22
 Chris (HTB Academy - SERVER-SIDE ATTACKS)  
-Buji (HTB Academy - )  
+Buji (HTB Academy - Cross-Site Scripting (XSS))  
