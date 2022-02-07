@@ -26,7 +26,7 @@ Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database
 +----------------------+  
 |&nbsp; Tables_in_DataBase&nbsp; |  
 +----------------------+  
-|&nbsp; [SQL Injection](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/SQL%20Injection/README.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  
+|&nbsp; [SQL Injection](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/SQL%20Injection/)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  
 |&nbsp; [Brute Force](https://pages.github.com/)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  
 +----------------------+  
 2 rows in set (0.00 sec)  
