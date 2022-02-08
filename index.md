@@ -23,8 +23,9 @@ Here is our shared training schedule!
 ## Meetings and Minutes
 Gotta document our banter somewhere ... Right?  
 [Go to meetings](./Meetings/Meetings.html)
-- [30/01/2022](./Meetings/22-01-30.html)
-- [07/02/2022](./Meetings/Meetings/22-02-07.html)
+- [30/01/2022 (Cyber Team Meeting)](./Meetings/22-01-30.html)
+- [07/02/2022 (Cyber Team Meeting)](./Meetings/Meetings/22-02-07.html)
+- [08/02/2022 (Worldskills Team Meeting)](./Meetings/Meetings/22-02-07.html)
 
 ## Presentations
 #### Trending Cyber Security Vulnerbilities
