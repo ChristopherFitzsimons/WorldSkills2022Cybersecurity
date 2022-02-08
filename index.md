@@ -26,11 +26,19 @@ Gotta document our banter somewhere ... Right?
 - [30/01/2022](./Meetings/22-01-30.html)
 - [07/02/2022](./Meetings/Meetings/22-02-07.html)
 
+## Presentations
+#### Trending Cyber Security Vulnerbilities
+By Christopher Fitzsimons  
+[Click to Download](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/raw/main/Presentations/WroldSkills%20Presentation%20Cybersecurity.pdf)  
+#### DarkNet Marketplace
+By Bujitha Ponsuge  
+[Click to Download](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity)  
+
 ## Notes
 Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database  
 \> SHOW TABLES;  
 | Tables_in_DataBase |
-| --- |
+| :--- |
 | [SQL Injection](./Notes/SQL_Injection.html) |
 | [Login Brute Force](./Notes/Login_Brute_Forcing.html) |
 
