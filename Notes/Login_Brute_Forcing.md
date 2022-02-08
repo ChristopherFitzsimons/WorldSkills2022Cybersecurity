@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<<a href="index.md">Back to Main Page</a>
+<[Back to Main Page](./index.html)
 
 # Login Brue Forcing
 Creared by Bujitha Ponsuge
