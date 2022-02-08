@@ -38,6 +38,7 @@ By Bujitha Ponsuge
 ## Notes
 Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database  
 \> SHOW TABLES;  
+
 | Tables_in_DataBase |
 | :--- |
 | [SQL Injection](./Notes/SQL_Injection.html) |
