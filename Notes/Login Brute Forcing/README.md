@@ -95,7 +95,7 @@ This tool can be used to create a custom username wordlist, using an name of an 
 
 # Service Authentication Brute Forcing (SSH & FTP)
 
-
+[!] Use This command if you created an world-list and password-list based of an username.
 ```console
 hydra -L username-list -P password-list -u -f ssh://<TargetIP:Port> -t 4 
 ```
@@ -104,5 +104,5 @@ hydra -L username-list -P password-list -u -f ssh://<TargetIP:Port> -t 4
 hydra -l username-list -P password-list ftp://<FTPIP>
 ```
 
-# PLACEHOLDER
-
+## Notes
+Cracking 
