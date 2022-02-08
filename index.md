@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
 
 <p align="center">
   <img src="https://www.worldskills.org.au/wp-content/uploads/2021/04/Cyber-1.png" width="350" title="hover text">
