@@ -18,13 +18,13 @@ Documentation Hub for WorldSkills 2022 Cybersecurity Australia Team "Silver"
 
 ## Training Schedule
 Here is our shared training schedule!  
-<a href="Training/Training.md">Go to schedule</a>
+[Go to schedule](./Training/Training.html)
 
 ## Meetings and Minutes
 Gotta document our banter somewhere ... Right?  
-<a href="Meetings/Meetings.md">Go to meetings</a>
-- <a href="Meetings/22-01-30.md">30/01/2022</a>
-- <a href="Meetings/22-02-07.md">07/02/2022</a>
+[Go to meetings](./Meetings/Meetings.html)
+- [30/01/2022](./Meetings/22-01-30.html)
+- [07/02/2022](./Meetings/Meetings/22-02-07.html)
 
 ## Notes
 Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database  
