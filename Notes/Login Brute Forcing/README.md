@@ -8,7 +8,7 @@ Creared by Bujitha Ponsuge
 # Commands
 The Following are commands that you can use with Hydra to brute force an Basic HTTP Auth Form
 
-## Brute Forcing Using Default Credentials using Hydra
+## Brute Forcing Basic HTTP Auth Forms Using Default Credentials using Hydra
 |	Options		|	Description	|
 |-----------|:-----------|
 |<font color=red>-C </font>|Allows to use Combined Wordlists|
