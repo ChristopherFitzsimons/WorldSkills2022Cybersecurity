@@ -6,28 +6,25 @@ layout: default
   <img src="https://www.worldskills.org.au/wp-content/uploads/2021/04/Cyber-1.png" width="350" title="hover text">
 </p>
 
-# WorldSkills 2022 - Cybersecurity
-Documentation Hub for WorldSkills 2022 Cybersecurity Australia Team "Silver"
-
-## Competitors
+# Competitors
 - Bujitha Ponsuge
 - Christopher Fitzsimons
 
-## Mentor
+# Mentor
 - Sawan Singh
 
-## Training Schedule
+# Training Schedule
 Here is our shared training schedule!  
 [Go to schedule](./Training/Training.html)
 
-## Meetings and Minutes
+# Meetings and Minutes
 Gotta document our banter somewhere ... Right?  
 [Go to meetings](./Meetings/Meetings.html)
 - [30/01/2022 (Cyber Team Meeting)](./Meetings/22-01-30.html)
 - [07/02/2022 (Cyber Team Meeting)](./Meetings/Meetings/22-02-07.html)
 - [08/02/2022 (Worldskills Team Meeting)](./Meetings/Meetings/22-02-07.html)
 
-## Presentations
+# Presentations
 #### Trending Cyber Security Vulnerbilities
 By Christopher Fitzsimons  
 [Click to Download](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/raw/main/Presentations/WroldSkills%20Presentation%20Cybersecurity.pdf)  
@@ -35,7 +32,7 @@ By Christopher Fitzsimons
 By Bujitha Ponsuge  
 [Click to Download](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity)  
 
-## Notes
+# Notes
 Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database  
 \> SHOW TABLES;  
 
