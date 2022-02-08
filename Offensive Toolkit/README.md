@@ -17,6 +17,8 @@ Alot of these tools will come native of kali but some dont.
 ## Burp Suite
 [Download](https://portswigger.net/burp/releases/community/latest)
 
+## Wireshark
+
 ## Metasploit
 
 ## Nikto
