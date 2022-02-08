@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<<a href="index.md">Back to Main Page</a>
+<[Back to Main Page](./index.html)
 
 # SQL Injection
 Creared by Christopher Fitzsimons
@@ -106,7 +106,9 @@ SELECT * from products where product_id = '1' UNION SELECT username, password fr
 ```
 
 ## Logging In
+```bash
 mysql -u <user> -h <host> -p<password> P<port>
+```
 
 ## Notes
 A data type defines what kind of value is to be held by a column. Common examples are numbers, strings, date, time, and binary data.
