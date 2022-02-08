@@ -16,17 +16,22 @@ Documentation Hub for WorldSkills 2022 Cybersecurity Australia Team "Silver"
 ## Mentor
 - Sawan Singh
 
-## Schedule
-Here is our shared training schedule!
-[Click Me!](https://pages.github.com/)
+## Training Schedule
+Here is our shared training schedule!  
+<a href="Training/Training.md">Go to schedule</a>
+
+## Meetings and Minutes
+Gotta document our banter somewhere ... Right?  
+<a href="Meetings/Meetings.md">Go to meetings</a>
+- <a href="Meetings/22-01-30.md">30/01/2022</a>
+- <a href="Meetings/22-02-07.md">07/02/2022</a>
 
 ## Notes
 Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database  
 \> SHOW TABLES;  
-+------------------------------+  
-|&nbsp; Tables_in_DataBase&nbsp; |  
-+------------------------------+  
-|&nbsp; <a href="SQL_Injection.md">SQL Injection</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|  
-|&nbsp; <a href="Notes/Brute_Force.md">Brute Force</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  
-+------------------------------+  
+| Tables_in_DataBase |
+| --- |
+| <a href="Notes/SQL_Injection.md">SQL Injection</a> |
+| <a href="Notes/Brute_Force.md">Brute Force</a> |
+
 2 rows in set (0.00 sec)  
