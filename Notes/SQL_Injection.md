@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<[Back to Main Page](./index.html)
+<[Back to Main Page](../index.html)
 
 # SQL Injection
 Creared by Christopher Fitzsimons
