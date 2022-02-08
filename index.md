@@ -5,6 +5,7 @@ layout: default
 <p align="center">
   <img src="https://www.worldskills.org.au/wp-content/uploads/2021/04/Cyber-1.png" width="350" title="hover text">
 </p>
+<a href="https://www.flaticon.com/free-icons/security" title="security icons">Security icons created by Freepik - Flaticon</a>
 
 # Competitors
 - Bujitha Ponsuge
