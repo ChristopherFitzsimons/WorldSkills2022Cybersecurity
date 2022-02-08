@@ -31,7 +31,7 @@ Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database
 \> SHOW TABLES;  
 | Tables_in_DataBase |
 | --- |
-| <a href="SQL_Injection.md">SQL Injection</a> |
-| <a href="Login_Brute_Forcing.md">Brute Force</a> |
+| [SQL Injection](./Notes/SQL_Injection.html) |
+| [Login Brute Force](./Notes/Login_Brute_Forcing.html) |
 
 2 rows in set (0.00 sec)  
