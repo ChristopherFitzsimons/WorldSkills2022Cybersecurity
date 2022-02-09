@@ -1,9 +1,9 @@
 <[Back to Main Page](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity)
 
-# Login Brue Forcing
-Creared by Bujitha Ponsuge
+# Brute Forcing Login Forms
+Created by Bujitha Ponsuge
 
-## Brute Forcing Login Forms
+
 
 # Commands
 The Following are commands that you can use with Hydra to brute force an Basic HTTP Auth Form
@@ -11,9 +11,9 @@ The Following are commands that you can use with Hydra to brute force an Basic H
 ## Brute Forcing Basic HTTP Auth Forms Using Default Credentials using Hydra
 |	Options		|	Description	|
 |-----------|:-----------|
-|<font color=red>-C </font>|Allows to use Combined Wordlists|
-|<font color=red>http-get</font>|	This is the Request Method						|
-|<font color=red>/</font> | The Target Path
+|-C |Allows to use Combined Wordlists|
+|http-get|	This is the Request Method						|
+|/| The Target Path
 
 Combined Wordlist
 
@@ -41,7 +41,7 @@ hydra -l <USERNAME> -P /usr/share//SecLists/Passwords/Leaked-Databases/rockyou.t
 
 # Web Forms/Login Forms Brute Forcing using **Hydra**
 
-Following Commands are usefull to brute force Login Forms (Admin Panels etc..) using the Hydra Module **http[s]-post-form**
+Following Commands are useful to brute force Login Forms (Admin Panels etc..) using the Hydra Module <font color=lightgreen> **http[s]-post-form**</font> 
 
 > To Determine if the **http[s]-post-form** is the correct module to use. Type something into the login form and check if the URL has any of the inputs that you put in or if the URL change in anyway, If the URL does not change then the Web Application will be using an POST form. If the URL change and or have any of our inputs then its an GET form.
 > 
@@ -58,9 +58,9 @@ Username/Password Brute Force
 hydra -L /usr/share/SecLists/Usernames/Names/names.txt -P /usr/share//SecLists/Passwords/Leaked-Databases/rockyou.txt <Target IP> -s <Target Port> http-post-form "/login.php:user=^USER^&pass="^PASS^:[Success or Failed String]
 ```
 
-Pasword Brute Force
+Password Brute Force
 
-> NOTE: Try default usernames that are often used in admin pannels.
+> NOTE: Try default usernames that are often used in admin panels.
 >  admin,administrator,wpadmin, root etc.
 
 ```console
@@ -68,8 +68,8 @@ hydra -l admin -P /usr/share//SecLists/Passwords/Leaked-Databases/rockyou.txt <T
 ```
 # PLACEHOLDER
 
-# Usefull Commands
-The following commands can help if you want to create a personalised wordlist
+# Useful Commands
+The following commands can help if you want to create a personalized wordlist
 
 
 ```console
@@ -83,7 +83,7 @@ This command will remove anything that does not contain special characters
 ```console
 sed -ri '/[0-9]+/!d' file.txt
 ```
-This will remove anything that has no numbres
+This will remove anything that has no numbers
 
 ```console
 git clone https://github.com/urbanadventurer/username-anarchy.git
@@ -105,4 +105,21 @@ hydra -l username-list -P password-list ftp://<FTPIP>
 ```
 
 ## Notes
-Cracking 
+
+Brute Forcing is basically an method of attempting to attackers trying many passwords and usernames with hopes of eventually guessing the correct one using specialized tools and public wordlists that contains default passwords and usernames that are used by many users.
+
+Since most passwords are not stored in clear text documents but instead hashed as hash values on files, an Brute Force needs to go through a list of passwords and try to match them with an hash value and once the hash value has been matched it would then essentially show them to the attacker to use. This is called offline brute-forcing.
+
+The Above commands are used for online brute-forcing and is mainly used for brute forcing website's login forms.
+Since most Websites would always have an login area for users including administrators, either hidden or in plain sight in some if not most cases, and since most usernames can be recognized easily and since majority of users wont use complex passwords since its harder to remember, it allows attackers to easily gain access into accounts as long as proper enumeration is done so they can get an good grip on it's system.
+
+Variety of tools and methods can be used for login brute forcing such as:
+
+- Hydra
+- Medusa
+- john the Ripper
+- wfuzz
+
+and many more.
+
+Many web servers that are currently active still uses BAsic HTTP AUTH scheme, which is essentials transmits credentials and passwords using Base64 encodings.
