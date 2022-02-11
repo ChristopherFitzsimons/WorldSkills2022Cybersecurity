@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+<[Back to Main Page](../index.html)
 
 # NMap Enumeration Fundamentals
 Created by Christopher Fitzsimons
