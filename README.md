@@ -12,11 +12,12 @@ Documentation Hub for WorldSkills 2022 Cybersecurity Australia Team "Silver"
 - Sawan Singh
 
 ## Training Schedule
-Here is our shared training schedule!
-[Click Me!](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Training)
+Here is our shared training schedule!  
+[Go To Training Schedule](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Training)
 
 ## Meetings and Minutes
 Gotta document our banter somewhere ... Right?
+[Go to Meetings](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings)
 - [30/01/2022](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings/22-01-30.md)
 - [07/02/2022](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings/22-02-07.md)
 - [08/02/2022](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings/22-02-08.md)
