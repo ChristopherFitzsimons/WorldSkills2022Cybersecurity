@@ -143,7 +143,7 @@ Hydra requires three specific flags to perform a brute force  attack on a web se
 2. **Target Host**
 3. **Target Path**
 
-The **-C** flag can be used for credentials if the usernames and passwords are in an pair, or use <font color=lightgreen>-L</font> and <font color=lightgreen>**-P**</font> respectfully for usernames and passwords.
+The **-C** flag can be used for credentials if the usernames and passwords are in an pair, or use <font color=lightgreen>-L</font> and <font color=lightgreen>-P</font> respectfully for usernames and passwords.
 And to save time by not brute forcing all the usernames with the combination of passwords we can specify the <font color=lightgreen>-f</font> flag to stop hydra after the first successfully login. Also adding the <font color=lightgreen>-u</font> flag will make ti so that hydra tries all users on each password, instead of trying all 14 million passwords on one user before moving to the next.
 
 If you find a website that has an admin panel that you can view, try the very top 10 most popular administrators credentials such as, **admin:admin** etc.
@@ -156,8 +156,8 @@ hydra -h | grep "Supported Services" | tr ":" "\n" | tr " " "\n" | column
 
 When you run the command you will find multiple supported services, when it comes to web from brute forcing, only two would be of use amd these are.
 
-- **http[s]-{head|get|post}**
-- **https[s]-post-form**
+- http[s]-{head|get|post}
+- https[s]-post-form
 
 The http[s]-{head|get|post} serves for basic HTTP authentication while the second one https[s]-post-form is used for login forms like .php or .aspx among others
 
