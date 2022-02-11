@@ -156,7 +156,7 @@ hydra -h | grep "Supported Services" | tr ":" "\n" | tr " " "\n" | column
 
 When you run the command you will find multiple supported services, when it comes to web from brute forcing, only two would be of use amd these are.
 
-- http[s]-{head|get|post}
+- http[s]-{head-get-post}
 - https[s]-post-form
 
 The http[s]-{head|get|post} serves for basic HTTP authentication while the second one https[s]-post-form is used for login forms like .php or .aspx among others
