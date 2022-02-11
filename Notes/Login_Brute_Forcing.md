@@ -15,11 +15,12 @@ Created by Bujitha Ponsuge
 The Following are commands that you can use with Hydra to brute force an Basic HTTP Auth Form
 
 ## Brute Forcing Basic HTTP Auth Forms Using Default Credentials using Hydra
+
 |	Options		|	Description	|
 |-----------|:-----------|
-|-C |Allows to use Combined Wordlists|
+|-C | Allows to use Combined Wordlists|
 |http-get|	This is the Request Method						|
-|/| The Target Path
+|/ | The Target Path
 
 Combined Wordlist
 
@@ -132,7 +133,7 @@ Many web servers that are currently active still uses Basic HTTP AUTH scheme, wh
 
 In most cases its very common to find usernames and passwords used tother, especially when default service passwords are kept unchanged. You can find list of known password and list of default password in the [SecLists repository](https://github.com/danielmiessler/SecLists) and you can also find it within [Kali repository](https://www.kali.org/tools/seclists/) (**If installing from within Kali, the default location for the saved password lists is "/usr/share/seclists/..."**).
 
-Within the SecLists one of the most commonly used password list is **rockyou.txt** which is located in <font color=lightgreen>**"/usr/share/seclists/passwords/Leaked-Databases/rockyou.txt"**</font>, which has over 14 million unique passwords sorted by how common they are. 
+Within the SecLists one of the most commonly used password list is **rockyou.txt** which is located in <font color=lightgreen>"/usr/share/seclists/passwords/Leaked-Databases/rockyou.txt"</font>, which has over 14 million unique passwords sorted by how common they are. 
 > Note: To use the rockyou.txt you must first untar the file from within the directory using the command:
 ```bash
 tar -xf /usr/share/seclists/passwords/Leaked-Databases/rockyou.txt.tar.gz
@@ -142,8 +143,8 @@ Hydra requires three specific flags to perform a brute force  attack on a web se
 2. **Target Host**
 3. **Target Path**
 
-The **-C** flag can be used for credentials if the usernames and passwords are in an pair, or use <font color=lightgreen>**-L** </font> and <font color=lightgreen>**-P**</font> respectfully for usernames and passwords.
-And to save time by not brute forcing all the usernames with the combination of passwords we can specify the <font color=lightgreen> **-f**</font> flag to stop hydra after the first successfully login. Also adding the <font color=lightgreen>**-u**</font> flag will make ti so that hydra tries all users on each password, instead of trying all 14 million passwords on one user before moving to the next.
+The **-C** flag can be used for credentials if the usernames and passwords are in an pair, or use <font color=lightgreen>-L</font> and <font color=lightgreen>**-P**</font> respectfully for usernames and passwords.
+And to save time by not brute forcing all the usernames with the combination of passwords we can specify the <font color=lightgreen>-f</font> flag to stop hydra after the first successfully login. Also adding the <font color=lightgreen>-u</font> flag will make ti so that hydra tries all users on each password, instead of trying all 14 million passwords on one user before moving to the next.
 
 If you find a website that has an admin panel that you can view, try the very top 10 most popular administrators credentials such as, **admin:admin** etc.
 
@@ -154,6 +155,7 @@ hydra -h | grep "Supported Services" | tr ":" "\n" | tr " " "\n" | column
 > This will output the Supported Services in a table
 
 When you run the command you will find multiple supported services, when it comes to web from brute forcing, only two would be of use amd these are.
+
 - **http[s]-{head|get|post}**
 - **https[s]-post-form**
 
