@@ -15,10 +15,11 @@ Creared by Bujitha Ponsuge
 The Following are commands that you can use with Hydra to brute force an Basic HTTP Auth Form
 
 ## Brute Forcing Basic HTTP Auth Forms Using Default Credentials using Hydra
+
 |	Options		|	Description	|
 |-----------|:-----------|
 |<font color=red>-C </font>|Allows to use Combined Wordlists|
-|<font color=red>http-get</font>|	This is the Request Method						|
+|<font color=red>http-get</font>|	This is the Request Method|
 |<font color=red>/</font> | The Target Path
 
 Combined Wordlist
