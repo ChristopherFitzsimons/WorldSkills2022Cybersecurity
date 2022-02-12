@@ -1,4 +1,4 @@
-# Dumping Credentials with Mimikatz
+# Dumping Credentials with Mimikatz and Other Tools
 ## Usefull Information
 https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-credentials-from-lsass.exe-process-memory
 https://www.offensive-security.com/metasploit-unleashed/mimikatz/
