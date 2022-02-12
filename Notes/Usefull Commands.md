@@ -16,7 +16,9 @@ nmap -F 10.129.150.229
 ```
 
 ## Uses common scripts with Scan
+```bash
 nmap -sC 10.129.155.61
+```
 
 ## FTP with anonymous account
 ```bash
