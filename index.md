@@ -46,5 +46,6 @@ Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database
 | [NMap](./Notes/NMap.html) |
 | [Server-Side Attacks](./Notes/Server_Side_Attacks.html) |
 | [Usefull Commands](./Notes/Usefull_Commands.html) |
+| [Credential Dumping](./Notes/Cred_Dumping.html) |
 
-5 rows in set (0.05 sec)  
+6 rows in set (0.04 sec)  
