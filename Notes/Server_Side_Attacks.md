@@ -14,7 +14,6 @@ If coming across an open AJP proxy port (8009 TCP), you can use the Nginx with a
 	<li> Create a configuration file pointing to the AJP Port
 </ol>
 
-
 **Downloading Nginx Source Code**
 
 ```bash
