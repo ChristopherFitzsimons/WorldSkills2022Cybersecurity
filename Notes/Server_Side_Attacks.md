@@ -49,7 +49,6 @@ nginx -V
 ````
 <font color=lightgreen>If everything was compiled correctly it should give you an output</font>
 
-```
 **Pointing to the AJP Port**
 
 We first need to comment out the entire <font color="lightgreen">server</font> block and then append the following lines inside the <font color="lightgreen">http</font> block in <font color="lightgreen">/etc/nginx/conf/nginx.conf</font>
