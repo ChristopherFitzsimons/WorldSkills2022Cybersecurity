@@ -45,5 +45,6 @@ Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database
 | [Login Brute Force](./Notes/Login_Brute_Forcing.html) |
 | [NMap](./Notes/NMap.html) |
 | [Server-Side Attacks](./Notes/Server_Side_Attacks.html) |
+| [Usefull Commands](./Notes/Usefull_Commands.html) |
 
-3 rows in set (0.05 sec)  
+5 rows in set (0.05 sec)  
