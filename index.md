@@ -49,3 +49,8 @@ Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database
 | [Credential Dumping](./Notes/Cred_Dumping.html) |
 
 6 rows in set (0.04 sec)  
+
+# Toolkits
+[Offensive Toolkit](./Offensive_Toolkit.html)  
+[Defensive Toolkit](./Defensive_Toolkit.html)  
+[CTF Toolkit](./CTF_Toolkit.html)  
