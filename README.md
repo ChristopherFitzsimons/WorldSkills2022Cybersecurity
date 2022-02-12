@@ -32,5 +32,6 @@ Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database
 | [NMap](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Notes/NMap) |
 | [Server-Side Attacks](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/Server-Side%20Attacks/) |
 | [Usefull Commands](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/Usefull%20Commands.md) |
+| [Credential Dumping](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/Cred%20Dumping.md) |
 
-5 rows in set (0.05 sec)  
+6 rows in set (0.04 sec)  
