@@ -44,6 +44,6 @@ Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database
 | [SQL Injection](./Notes/SQL_Injection.html) |
 | [Login Brute Force](./Notes/Login_Brute_Forcing.html) |
 | [NMap](./Notes/NMap.html) |
-| [Server-Side Attacks](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/Server-Side%20Attacks/) |
+| [Server-Side Attacks](/.Notes/Server_Side_Attacks.html) |
 
 3 rows in set (0.05 sec)  
