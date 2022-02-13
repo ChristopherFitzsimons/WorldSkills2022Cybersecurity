@@ -1,10 +1,7 @@
 <[Back to Main Page](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity)
 
-# NMap Enumeration Fundamentals
-Created by Christopher Fitzsimons
-
-## Usefull URL's
-https://www.tutorialspoint.com/nmap-cheat-sheet
+# Network Enumaration with NMap
+By Christopher Fitzsimons
 
 ## Usefull Commands
 ### Search for up hosts
@@ -19,7 +16,7 @@ nmap -sV -p 80 10.129.150.229
 ```bash
 nmap -F 10.129.150.229
 ```
-### Scan All Ports
+## Scan All Ports
 ```bash
 nmap -sV -p- 10.129.150.229
 ```
@@ -38,31 +35,31 @@ cd /usr/share/nmap/scripts/
 git clone https://github.com/vulnersCom/nmap-vulners.git
 nmap --script nmap-vulners/ -sV <target>
 ```
-### Uses common scripts with Scan
+## Uses common scripts with Scan
 ```bash
 nmap -sC 10.129.155.61
 ```
-### Port Scan top 10
+## Port Scan top 10
 ```bash
 nmap 10.129.2.28 --top-ports=10 
 ```
-### Port scan packet trace
+## Port scan packet trace
 ```bash
 nmap 10.129.2.28 -p 139 --packet-trace -n --disable-arp-ping -Pn
 ```
-### Open UDP Port
+## Open UDP Port
 ```bash
 nmap 10.129.2.28 -F -sU
 ```
-### TCP SYN Port
+## TCP SYN Port
 ```bash
 nmap 10.129.2.28 -F -sS
 ```
-### Connect TCP Port
+## Connect TCP Port
 ```bash
 nmap 10.129.2.28 -F -sT
 ```
-### Aggressive Scan
+## Aggressive Scan
 ```bash
 sudo nmap 10.129.2.28 -p 80 -A
 ```
@@ -79,20 +76,33 @@ Scan IP Range:
 sudo nmap -sn -oA tnet 10.129.2.18-20| grep for | cut -d" " -f5
 Scan if device is alive:
 sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace 
+Bypass IPS Protection (-sS [SYN] -Pn [Disable ICMP] -n [Disable DNS] -D [Decoy] =vv [Super Verbose])
+sudo nmap -p- 10.129.2.47 -sS -Pn -n -D RND:5 -vv --max-retrie 0 --source-port 53 --disable-arp-ping --stats-every=30s
 ```
 
 ## Saving Results
 Normal output (-oN) with the .nmap file extension  
 Grepable output (-oG) with the .gnmap file extension  
 XML output (-oX) with the .xml file extension  
-We can also specify the option (-oA) to save the results in all formats. The command could look like this
+We can also specify the option (-oA) to save the results in all formats. The command could look like this  
 Open hmtl export  
 xsltproc target.xml -o target.html  
 
 ## Get Stats updates
 --stats-every=5s  
-Here we can specify the number of seconds (s) or minutes (m)  
+Here we can specify the number of seconds (s) or minutes (m).  
 We can also increase the verbosity level (-v / -vv), which will show us the open ports directly when Nmap detects them  
+
+## Timings
+
+|Short|Long|
+|---|---|
+|-T 0 |-T paranoid|
+|-T 1 |-T sneaky|
+|-T 2 |-T polite|
+|-T 3 |-T normal|
+|-T 4 |-T aggressive|
+|-T 5 |-T insane|
 
 ## Other network commands
 TCP Dump:  
@@ -118,3 +128,17 @@ nc -nv 10.129.2.28 25
 If our target sends an SYN-ACK flagged packet back to the scanned port, Nmap detects that the port is open.  
 If the packet receives an RST flag, it is an indicator that the port is closed.  
 If Nmap does not receive a packet back, it will display it as filtered. Depending on the firewall configuration, certain packets may be dropped or ignored by the firewall.  
+
+We can use various options to tell Nmap how fast (-T <1-5>), with which frequency (--min-parallelism <number>), which timeouts (--max-rtt-timeout <time>) the test packets should have, how many packets should be sent simultaneously (--min-rate <number>), and with the number of retries (--max-retries <number>) for the scanned ports the targets should be scanned.  
+
+Another way to increase the scans' speed is to specify the retry rate of the sent packets (--max-retries). The default value for the retry rate is 1, so if Nmap does not receive a response for a port, it will not send any more packets to the port and will be skipped.  
+
+When setting the minimum rate (--min-rate <number>) for sending packets, we tell Nmap to simultaneously send the specified number of packets. It will attempt to maintain the rate accordingly.  
+
+Nmap's TCP ACK scan (-sA) method is much harder to filter for firewalls and IDS/IPS systems than regular SYN (-sS) or Connect scans (sT) because they only send a TCP packet with only the ACK flag. So if you want to get around firewall filtering use -sA.  
+
+the Decoy scanning method (-D) is the right choice. With this method, Nmap generates various random IP addresses inserted into the IP header to disguise the origin of the packet sent. Example is (-D RND:5)  
+Another scenario would be that only individual subnets would not have access to the server's specific services. So we can also manually specify the source IP address (-S)  
+The argment (-O) performs an Operating system scan.  
+To send requests through a specific tunnel use (-e tun0)  
+we can use TCP port 53 as a source port (--source-port) for our scans.  
