@@ -35,3 +35,8 @@ Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database
 | [Credential Dumping](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/Cred%20Dumping.md) |
 
 6 rows in set (0.04 sec)  
+
+# Toolkits
+[Offensive Toolkit](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Offensive%20Toolkit)  
+[Defensive Toolkit](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Defensive%20Toolkit)  
+[CTF Toolkit](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/CTF%20Toolkit)  
