@@ -22,6 +22,17 @@ Gotta document our banter somewhere ... Right?
 - [07/02/2022](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings/22-02-07.md)
 - [08/02/2022](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings/22-02-08.md)
 
+# Presentations
+#### Trending Cyber Security Vulnerbilities
+[Go To Presentations](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Presentations)  
+By Christopher Fitzsimons  
+[Click to Open](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Presentations/WroldSkills%20Presentation%20Cybersecurity.pdf)  
+[Click to Download](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/raw/main/Presentations/WroldSkills%20Presentation%20Cybersecurity.pdf)  
+#### DarkNet Marketplace
+By Bujitha Ponsuge  
+[Click to Open](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Presentations/WorldSkills%20Presentation%20Cybersecurity-Member2.pdf)  
+[Click to Download](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/raw/main/Presentations/WorldSkills%20Presentation%20Cybersecurity-Member2.pdf)  
+
 ## Notes
 Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database  
 \> SHOW TABLES;  
