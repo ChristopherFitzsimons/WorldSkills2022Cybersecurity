@@ -6,6 +6,7 @@
 Documentation Hub for WorldSkills 2022 Cybersecurity Australia Team "Silver"
 
 ## Competitors
+![](Images/Silver_Team.jpg)
 - Bujitha Ponsuge
 - Christopher Fitzsimons
 ## Mentor
