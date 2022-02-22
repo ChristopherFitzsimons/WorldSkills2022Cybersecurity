@@ -109,3 +109,5 @@ sudo systemctl start apache2
 ```
 
 If everything is done you should be able to access the Apache Tomcat manager using localhost (127.0.0.1)
+
+[Server Side Request Forgery](SSRF.md)
