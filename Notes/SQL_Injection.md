@@ -7,6 +7,9 @@ layout: default
 # SQL Injection
 Creared by Christopher Fitzsimons
 
+## TLDR
+SQL is a largely known and used solution for databases which hold information for servers, websites, applications and much more. You can use SQL querie to access, add and remove data on the database. From a websites perspective, If you dont securly code your website you can use SQL queries and access data on the database when you are not suppose to. These are called SQL Injections as you are injecting your own query into the base query.
+
 ## SQL Injection Queries
 ```sql
 admin' OR '1'='1''  
