@@ -70,3 +70,42 @@ To check if Nginx is working first start it then try to go to the website on loc
 ```bash
 sudo nginx
 ```
+***
+
+# Apache Reverse Proxy & AJP
+
+
+**Install the Libapache2-mod-jk package**
+```
+sudo apt install libapache2-mod-jk
+```
+
+**Enable the Modules**
+```
+sudo a2enmod proxy_ajp
+```
+
+```
+sudo a2enmod proxy_http
+```
+
+**Create the config file to point to the target AJP proxy**
+```
+export TARGET="TARGETIP"
+```
+```bash
+echo -n """<Proxy *>
+Order allow,deny
+Allow from all
+</Proxy>
+ProxyPass / ajp://$TARGET:8009/
+ProxyPassReverse / ajp://$TARGET:8009/""" | sudo tee /etc/apache2/sites-available/ajp-proxy.conf
+```
+```
+sudo ln -s /etc/apache2/sites-available/ajp-proxy.conf /etc/apache2/sites-enabled/ajp-proxy.conf
+```
+```
+sudo systemctl start apache2
+```
+
+If everything is done you should be able to access the Apache Tomcat manager using localhost (127.0.0.1)
