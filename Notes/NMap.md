@@ -7,6 +7,9 @@ layout: default
 # Network Enumaration with NMap
 Created by Christopher Fitzsimons
 
+## TLDR
+Nmap is a largly known tool used by Defensive and Offensive professionals. This tool allows the user to scan networks and fine servers with open services and ports. This is vital information as from an Offensive perspective they can use this information to target their attack against services and servers which look vulnerable. From a Defensive perspective this tool can be used to evaluate your network protection and arise issues or vulnerbilities on servers.
+
 ## Usefull Commands
 ### Search for up hosts
 ```bash
