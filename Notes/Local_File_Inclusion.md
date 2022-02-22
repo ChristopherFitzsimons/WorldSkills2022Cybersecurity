@@ -8,6 +8,10 @@ layout: default
 Usefull link:  
 https://academy.hackthebox.com/course/preview/file-inclusion--directory-traversal/local-file-inclusion  
 
+## TLDR
+Local File Inclusion and Path Traversal uses a bunch on vulnerbilities in PHP configuration. If PHP isnt securly configured or if the code is written poorly, attackers can use thoes gaps to get file contents on the server and inject their own malicious commands to gain remote access to the server.  
+The below will show commands and queries I can use to try and get insignt into what is on the machine, what I can access and what I can inject.  
+
 ## Quick Examples
 "index.php?language=../../../../../../../../../etc/passwd"  
 "index.php?language=....//....//....//....//....//....//....//....//etc/passwd"  
