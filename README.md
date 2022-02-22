@@ -44,10 +44,11 @@ Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database
 | [Login Brute Forceing](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Notes/Login%20Brute%20Forcing) |
 | [NMap](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Notes/NMap) |
 | [Server-Side Attacks](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/Server-Side%20Attacks/) |
+| [Local File Inclusion and Path Traversal](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/Local%20File%20Inclusion.md) |
 | [Usefull Commands](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/Usefull%20Commands.md) |
 | [Credential Dumping](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Notes/Cred%20Dumping.md) |
 
-6 rows in set (0.04 sec)  
+7 rows in set (0.04 sec)  
 
 # Toolkits
 [Offensive Toolkit](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/blob/main/Offensive%20Toolkit)  
