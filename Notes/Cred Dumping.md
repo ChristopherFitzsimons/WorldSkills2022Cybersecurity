@@ -1,3 +1,5 @@
+<[Back to Main Page](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity)
+
 # Dumping Credentials with Mimikatz and Other Tools
 ## Usefull Information
 https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-credentials-from-lsass.exe-process-memory
