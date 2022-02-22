@@ -47,10 +47,11 @@ Notes are imprtant ... Arnt they? Well here they are! Our Knowledge Database
 | [Login Brute Force](./Notes/Login_Brute_Forcing.html) |
 | [NMap](./Notes/NMap.html) |
 | [Server-Side Attacks](./Notes/Server_Side_Attacks.html) |
+| [Local File Inclusion and Path Traversal](./Notes/Local_File_Inclusion.html) |
 | [Usefull Commands](./Notes/Usefull_Commands.html) |
 | [Credential Dumping](./Notes/Cred_Dumping.html) |
 
-6 rows in set (0.04 sec)  
+7 rows in set (0.04 sec)  
 
 # Toolkits
 [Offensive Toolkit](./Toolkits/Offensive_Toolkit.html)  
