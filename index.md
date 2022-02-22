@@ -10,6 +10,7 @@ layout: default
 </p>
 
 # Competitors
+![](Silver_Team.jpg)
 - Bujitha Ponsuge
 - Christopher Fitzsimons
 
