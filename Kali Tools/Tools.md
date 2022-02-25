@@ -64,7 +64,10 @@ Nmap: Nmap is a multi use tool, as it can help with both reconnaisance, enumerat
  <details open>
    <summary>Usage Example</summary>
 <br>
+ 
+SYN Scan
 ```
 nmap 172.12.14.1 -p 80,443,22,21 -sS -Pn -n --disable-arp-ping
+   
 ```
   </details>
