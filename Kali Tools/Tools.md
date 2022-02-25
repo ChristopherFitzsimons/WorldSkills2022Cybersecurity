@@ -2,8 +2,9 @@ Lists of kali tools and useful commands for them
 
 ## Reconnaisance :artificial_satellite:
 
-Nmap: Nmap is a multi use tool, as it can help with both reconnaisance, enumeration and also offesnive(Not Hugely)
-<details opne>
+Nmap: Nmap is a utility tool usefull for network exploration or security audting.
+
+<details close>
   <summary>Target Specification</summary>
   <br>
 -iL = List IPS
@@ -24,7 +25,7 @@ Nmap: Nmap is a multi use tool, as it can help with both reconnaisance, enumerat
 
 --dns-servers = Servers to use for reverse DNS queries
   </details>
-<details open>
+<details close>
   <summary>Host Discovery</summary>
 <br>
 -sL = List Scan. This will simpaly list each host of the network(s) specified, without sending any packets to the target hosts. 
@@ -52,7 +53,7 @@ Nmap: Nmap is a multi use tool, as it can help with both reconnaisance, enumerat
 --traceroute = Trace path to host
 
   </details>
-<details open>
+<details close>
   <summary>Misc</summary> 
 <br>
 --packet-trace = shows where the packets are going
@@ -61,7 +62,7 @@ Nmap: Nmap is a multi use tool, as it can help with both reconnaisance, enumerat
 
   </details>
 
- <details open>
+ <details close>
    <summary>Usage Example</summary>
 <br>
  
