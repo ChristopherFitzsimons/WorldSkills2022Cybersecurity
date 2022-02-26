@@ -1,10 +1,11 @@
 Lists of kali tools and useful commands for them
 
 ## Reconnaisance :artificial_satellite:
-
-Nmap: Nmap is a utility tool usefull for network exploration or security audting.
-
 <details close>
+  <summary>Nmap: Nmap is a utility tool usefull for network exploration or security audting.</summary>
+  <br>
+  
+  <details close>
   <summary>Target Specification</summary>
   <br>
 -iL = List IPS
@@ -72,3 +73,6 @@ nmap 172.12.14.1 -p 80,443,22,21 -sS -Pn -n --disable-arp-ping
    
 ```
   </details>
+  </details>
+
+
