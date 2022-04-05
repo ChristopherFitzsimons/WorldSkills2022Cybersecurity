@@ -3,7 +3,7 @@
 </p>
 
 # WorldSkills 2022 - Cybersecurity
-Documentation Hub for WorldSkills 2022 Cybersecurity Australia Team "Silver"
+Documentation Hub for WorldSkills 2022 Cybersecurity Australia Team  
 
 ## Competitors
 ![](Images/Silver_Team.jpg)
@@ -11,19 +11,6 @@ Documentation Hub for WorldSkills 2022 Cybersecurity Australia Team "Silver"
 - Christopher Fitzsimons
 ## Mentor
 - Sawan Singh
-
-## Training Schedule
-Here is our shared training schedule!  
-[Go To Training Schedule](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Training)
-
-## Meetings and Minutes
-Gotta document our banter somewhere ... Right?  
-[Go to Meetings](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings)
-- [30/01/2022 (Cyber Team Meeting)](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings/22-01-30.md)
-- [07/02/2022 (Cyber Team Meeting)](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings/22-02-07.md)
-- [08/02/2022 (Worldskills Team Meeting)](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings/22-02-08.md)
-- [15/02/2022 (Cyber Team Meeting (With Bronze))](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings/22-02-15.md)
-- [22/02/2022 (Cyber Team Meeting (With Bronze))](https://github.com/ChristopherFitzsimons/WorldSkills2022Cybersecurity/tree/main/Meetings/22-02-22.md)
 
 # Presentations
 #### Trending Cyber Security Vulnerbilities
