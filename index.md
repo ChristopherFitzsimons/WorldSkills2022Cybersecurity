@@ -10,8 +10,8 @@ layout: default
 </p>
 
 # Competitors
-![](Silver_Team.jpg)
-- Bujitha Ponsuge
+[comment]: ![](Silver_Team.jpg)
+- Ben Armstrong
 - Christopher Fitzsimons
 
 # Mentor
