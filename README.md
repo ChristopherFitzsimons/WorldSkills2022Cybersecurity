@@ -6,8 +6,8 @@
 Documentation Hub for WorldSkills 2022 Cybersecurity Australia Team  
 
 ## Competitors
-![](Images/Silver_Team.jpg)
-- Bujitha Ponsuge
+[comment]: ![](Images/Silver_Team.jpg)
+- Ben Armstrong
 - Christopher Fitzsimons
 ## Mentor
 - Sawan Singh
